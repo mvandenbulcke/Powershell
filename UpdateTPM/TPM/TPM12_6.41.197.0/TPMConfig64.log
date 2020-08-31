@@ -1,0 +1,1189 @@
+﻿2018/05/23 14:25:01.610|0000323C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/23 14:25:01.621|0000323C|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/23 14:25:01.674|0000323C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/23 14:25:01.695|0000323C|Information|CTpmUpdateApp::InitializeProperties|Command line: -s -fTPM12_6.40.190.0_to_TPM20_7.62.3126.0.BIN 
+2018/05/23 14:25:01.738|0000323C|Information|CTpmUpdateApp::InitializeProperties|The provided TPM BIN file is not existed.
+2018/05/23 14:25:01.759|0000323C|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 257
+2018/05/23 14:25:01.829|0000323C|Information|CTpmUpdateApp::ExitInstance|******************   End of HP TPM FW Update session    ******************
+2018/05/23 17:36:29.170|00001678|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/23 17:36:29.181|00001678|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/23 17:36:29.244|00001678|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/23 17:36:29.283|00001678|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/23 17:36:29.351|00001678|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/23 17:36:29.449|00001678|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/23 17:36:29.483|00001678|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/23 17:36:29.849|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/23 17:36:29.871|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/23 17:36:30.101|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/23 17:36:30.145|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/23 17:36:30.180|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/23 17:36:30.199|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/23 17:36:30.219|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/23 17:36:30.340|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/23 17:36:30.361|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/23 17:36:30.708|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/23 17:36:30.727|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/23 17:36:30.747|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/23 17:36:30.803|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/23 17:36:30.827|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/23 17:36:30.848|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/23 17:36:30.866|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/23 17:36:30.892|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/23 17:36:30.923|00001678|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/23 17:36:34.752|00001678|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/05/23 17:36:34.776|00001678|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/23 17:36:34.976|00001678|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/23 17:36:35.004|00001678|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/23 17:36:35.063|00001678|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/23 17:36:35.109|00001678|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/23 17:36:39.887|00001678|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/23 17:36:39.913|00001678|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/23 17:36:40.065|00001678|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/23 17:36:40.111|00001678|Information|TpmUpdate::RestartSystem|
+2018/05/24 10:59:48.345|00000550|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 10:59:48.375|00000550|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/24 10:59:48.426|00000550|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 10:59:48.510|00000550|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/24 10:59:49.019|00000550|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/24 10:59:49.080|00000550|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/24 10:59:49.156|00000550|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/24 10:59:49.396|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/24 10:59:49.439|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/24 10:59:49.477|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/24 10:59:49.510|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/24 10:59:49.557|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/24 10:59:49.584|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/24 10:59:49.616|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/24 10:59:49.722|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/24 10:59:49.756|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/24 10:59:49.995|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/24 10:59:50.043|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/24 10:59:50.075|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/24 10:59:50.133|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/24 10:59:50.161|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/24 10:59:50.192|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/24 10:59:50.255|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/24 10:59:50.287|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/24 10:59:50.319|00000550|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/24 10:59:53.468|00000550|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/05/24 10:59:53.523|00000550|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/24 10:59:53.779|00000550|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/24 10:59:53.817|00000550|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/24 10:59:53.895|00000550|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/24 10:59:53.955|00000550|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/24 10:59:58.426|00000550|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/24 10:59:58.468|00000550|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/24 10:59:58.577|00000550|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/24 10:59:58.610|00000550|Information|TpmUpdate::RestartSystem|
+2018/05/24 15:33:50.329|00002510|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 15:33:50.360|00002510|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/24 15:33:50.391|00002510|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 15:33:50.407|00002510|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/24 15:33:50.750|00002510|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/24 15:33:50.813|00002510|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/24 15:33:50.844|00002510|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/24 15:33:50.907|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/24 15:33:50.938|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/24 15:33:50.953|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/24 15:33:50.969|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/24 15:33:50.985|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/24 15:33:51.000|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: Yes
+2018/05/24 15:33:51.016|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/24 15:33:51.063|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/24 15:33:51.078|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/24 15:33:51.125|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/24 15:33:51.157|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/24 15:33:51.172|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/24 15:33:51.188|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/24 15:33:51.203|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/24 15:33:51.235|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/24 15:33:51.250|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/24 15:33:51.266|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/24 15:33:51.281|00002510|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/24 15:33:59.313|00002510|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/05/24 15:33:59.406|00002510|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/24 15:33:59.656|00002510|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/24 15:33:59.688|00002510|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/24 15:33:59.750|00002510|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/24 15:33:59.797|00002510|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/24 15:34:04.736|00002510|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/24 15:34:04.768|00002510|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/24 15:34:04.830|00002510|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/24 15:34:04.939|00002510|Information|TpmUpdate::RestartSystem|
+2018/05/24 15:58:22.824|0000177C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 15:58:22.964|0000177C|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/24 15:58:23.074|0000177C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 15:58:23.120|0000177C|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/24 15:58:23.245|0000177C|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/24 15:58:23.432|0000177C|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/24 15:58:23.479|0000177C|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/24 15:58:23.557|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/24 15:58:23.651|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/24 15:58:23.698|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/24 15:58:23.760|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/24 15:58:23.932|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/24 15:58:23.979|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/24 15:58:24.104|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/24 15:58:24.369|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/24 15:58:24.432|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/24 15:58:24.588|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/24 15:58:24.635|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/24 15:58:24.697|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/24 15:58:24.822|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/24 15:58:24.900|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/24 15:58:24.978|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/24 15:58:25.072|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/24 15:58:25.134|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/24 15:58:25.212|0000177C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/24 15:58:29.587|0000177C|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/05/24 15:58:29.697|0000177C|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/24 15:58:29.993|0000177C|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/24 15:58:30.102|0000177C|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/24 15:58:30.415|0000177C|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/24 15:58:30.477|0000177C|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/24 15:58:59.766|0000177C|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/24 15:58:59.985|0000177C|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/24 15:59:00.641|0000177C|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/24 15:59:00.813|0000177C|Information|TpmUpdate::RestartSystem|
+2018/05/24 16:58:23.966|00001D44|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 16:58:24.091|00001D44|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/24 16:58:24.153|00001D44|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 16:58:24.247|00001D44|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/24 16:58:24.388|00001D44|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/24 16:58:24.497|00001D44|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/24 16:58:24.560|00001D44|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/24 16:58:24.638|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/24 16:58:24.701|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/24 16:58:24.748|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/24 16:58:24.819|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.40.190.0
+2018/05/24 16:58:24.874|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/24 16:58:24.937|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/24 16:58:24.999|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/24 16:58:25.155|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/24 16:58:25.202|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/24 16:58:25.280|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/24 16:58:25.327|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/24 16:58:25.374|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM is NOT valid.
+2018/05/24 16:58:25.437|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Reason: Given firmware image cannot be used with current TPM firmware.
+2018/05/24 16:58:25.501|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Image is not valid. Try next file
+2018/05/24 16:58:25.564|00001D44|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/24 16:58:25.611|00001D44|Information|CTpmUpdateApp::IsTPMFWUpdateAllowed|Image is invalid.
+2018/05/24 16:58:27.858|00001D44|Information|CTpmUpdateApp::ShowError|De firmwarekopie kan niet worden gebruikt voor het bijwerken van de huidige TPM-firmware.
+2018/05/24 16:58:27.917|00001D44|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 275
+2018/05/24 16:58:27.961|00001D44|Information|CTpmUpdateApp::ExitInstance|******************   End of HP TPM FW Update session    ******************
+2018/05/24 17:05:56.470|0000047C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 17:05:56.523|0000047C|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/24 17:05:56.607|0000047C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/24 17:05:56.683|0000047C|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/24 17:05:56.833|0000047C|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/24 17:05:56.930|0000047C|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/24 17:05:57.018|0000047C|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/24 17:05:57.240|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/24 17:05:57.327|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/24 17:05:57.396|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/24 17:05:57.462|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/24 17:05:57.535|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/24 17:05:57.601|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/24 17:05:58.001|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/24 17:05:58.365|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/24 17:05:58.461|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/24 17:05:58.647|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/24 17:05:58.733|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/24 17:05:58.802|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/24 17:05:58.882|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/24 17:05:58.946|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/24 17:05:59.039|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/24 17:05:59.129|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/24 17:05:59.200|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/24 17:05:59.290|0000047C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/24 17:06:03.213|0000047C|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/05/24 17:06:03.300|0000047C|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/24 17:06:03.641|0000047C|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/24 17:06:03.732|0000047C|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/24 17:06:03.944|0000047C|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/24 17:06:04.082|0000047C|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/24 17:06:06.926|0000047C|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/24 17:06:07.012|0000047C|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/24 17:06:07.208|0000047C|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/24 17:06:07.296|0000047C|Information|TpmUpdate::RestartSystem|
+2018/05/30 17:30:47.986|000015AC|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/30 17:30:48.048|000015AC|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/30 17:30:49.112|000015AC|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/30 17:30:51.520|000015AC|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/30 17:30:51.567|000015AC|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/30 17:30:51.692|000015AC|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/30 17:30:51.755|000015AC|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/30 17:30:51.911|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/30 17:30:52.021|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/30 17:30:52.130|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/30 17:30:52.318|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/30 17:30:52.474|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/30 17:30:52.568|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/30 17:30:52.662|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/30 17:30:52.834|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/30 17:30:52.959|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/30 17:30:53.319|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/30 17:30:53.727|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/30 17:30:54.103|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/30 17:30:54.244|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/30 17:30:54.338|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/30 17:30:54.688|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/30 17:30:55.885|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/30 17:30:55.995|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/30 17:30:56.089|000015AC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/30 17:30:58.873|000015AC|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 5
+2018/05/30 17:30:58.904|000015AC|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/30 17:30:59.404|000015AC|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/30 17:30:59.436|000015AC|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/30 17:30:59.639|000015AC|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/30 17:31:00.327|000015AC|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/30 17:31:04.112|000015AC|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/30 17:31:04.284|000015AC|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/30 17:31:05.066|000015AC|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/30 17:31:05.472|000015AC|Information|TpmUpdate::RestartSystem|
+2018/05/31 15:11:03.192|00000FA0|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/31 15:11:03.208|00000FA0|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/31 15:11:03.239|00000FA0|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/31 15:11:03.302|00000FA0|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/31 15:11:03.333|00000FA0|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/31 15:11:03.505|00000FA0|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/31 15:11:03.629|00000FA0|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/31 15:11:03.692|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/31 15:11:03.707|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/31 15:11:03.739|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/31 15:11:03.754|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/31 15:11:03.832|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/31 15:11:03.864|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/31 15:11:03.910|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/31 15:11:03.942|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/31 15:11:04.035|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/31 15:11:04.067|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/31 15:11:04.145|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/31 15:11:04.160|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/31 15:11:04.223|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/31 15:11:04.316|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/31 15:11:04.394|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/31 15:11:04.410|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/31 15:11:04.426|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/31 15:11:04.457|00000FA0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/31 15:11:07.376|00000FA0|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/05/31 15:11:07.876|00000FA0|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/31 15:11:08.235|00000FA0|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/31 15:11:08.782|00000FA0|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/31 15:11:08.875|00000FA0|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/31 15:11:09.437|00000FA0|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/31 15:11:13.184|00000FA0|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/31 15:11:13.278|00000FA0|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/31 15:11:13.356|00000FA0|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/31 15:11:13.528|00000FA0|Information|TpmUpdate::RestartSystem|
+2018/05/31 15:23:56.501|000020F4|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/31 15:23:56.532|000020F4|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/31 15:23:56.563|000020F4|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/31 15:23:56.595|000020F4|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/31 15:23:57.843|000020F4|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/31 15:23:58.921|000020F4|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/31 15:23:59.186|000020F4|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/31 15:23:59.561|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/31 15:23:59.639|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/31 15:23:59.795|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/31 15:24:00.466|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/31 15:24:00.700|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/31 15:24:01.184|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/31 15:24:01.356|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/31 15:24:01.387|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/31 15:24:01.465|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/31 15:24:01.512|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/31 15:24:01.652|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/31 15:24:01.887|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/31 15:24:01.918|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/31 15:24:01.933|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/31 15:24:02.011|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/31 15:24:02.027|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/31 15:24:02.183|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/31 15:24:02.433|000020F4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/31 15:24:05.368|000020F4|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/05/31 15:24:05.430|000020F4|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/31 15:24:05.805|000020F4|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/31 15:24:05.945|000020F4|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/31 15:24:06.101|000020F4|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/31 15:24:06.304|000020F4|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/31 15:24:12.189|000020F4|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/31 15:24:12.580|000020F4|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/31 15:24:12.876|000020F4|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/31 15:24:12.892|000020F4|Information|TpmUpdate::RestartSystem|
+2018/05/31 15:46:58.320|00001CD4|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/31 15:46:58.336|00001CD4|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/05/31 15:46:58.352|00001CD4|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/05/31 15:46:58.367|00001CD4|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/05/31 15:46:58.477|00001CD4|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/05/31 15:46:58.571|00001CD4|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/05/31 15:46:58.665|00001CD4|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/05/31 15:46:58.727|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/05/31 15:46:58.743|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/05/31 15:46:58.790|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/05/31 15:46:58.821|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/05/31 15:46:58.853|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/05/31 15:46:58.868|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/05/31 15:46:58.900|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/05/31 15:46:58.962|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/05/31 15:46:58.994|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/05/31 15:46:59.041|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/05/31 15:46:59.072|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/05/31 15:46:59.088|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/05/31 15:46:59.119|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/05/31 15:46:59.134|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/05/31 15:46:59.150|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/05/31 15:46:59.181|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/05/31 15:46:59.197|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/05/31 15:46:59.213|00001CD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/05/31 15:47:08.266|00001CD4|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/05/31 15:47:08.642|00001CD4|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/05/31 15:47:08.877|00001CD4|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/05/31 15:47:09.065|00001CD4|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/05/31 15:47:09.174|00001CD4|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/05/31 15:47:09.237|00001CD4|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/05/31 15:47:12.839|00001CD4|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/05/31 15:47:12.917|00001CD4|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/05/31 15:47:12.995|00001CD4|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/05/31 15:47:13.058|00001CD4|Information|TpmUpdate::RestartSystem|
+2018/06/01 12:12:36.896|00001258|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/01 12:12:36.912|00001258|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/01 12:12:36.943|00001258|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/01 12:12:36.974|00001258|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/01 12:12:37.584|00001258|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/01 12:12:37.646|00001258|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/01 12:12:37.677|00001258|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/01 12:12:37.740|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/01 12:12:37.756|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/01 12:12:37.818|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/01 12:12:37.849|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/01 12:12:37.881|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/01 12:12:37.896|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/06/01 12:12:37.928|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/01 12:12:37.990|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/01 12:12:38.052|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/01 12:12:38.130|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/01 12:12:38.146|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/01 12:12:38.177|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/01 12:12:38.209|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/01 12:12:38.240|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/01 12:12:38.271|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/01 12:12:38.318|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/01 12:12:38.381|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/01 12:12:38.396|00001258|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/01 12:12:42.007|00001258|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/01 12:12:42.038|00001258|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/01 12:12:42.241|00001258|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/01 12:12:42.288|00001258|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/01 12:12:42.335|00001258|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/01 12:12:42.382|00001258|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/01 12:12:46.320|00001258|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/01 12:12:46.351|00001258|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/01 12:12:46.445|00001258|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/01 12:12:46.492|00001258|Information|TpmUpdate::RestartSystem|
+2018/06/01 17:07:25.530|00001BC4|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/01 17:07:25.624|00001BC4|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/01 17:07:25.734|00001BC4|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/01 17:07:25.828|00001BC4|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/01 17:07:26.231|00001BC4|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/01 17:07:26.388|00001BC4|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/01 17:07:26.497|00001BC4|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/01 17:07:26.632|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/01 17:07:26.663|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/01 17:07:26.772|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/01 17:07:26.866|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/01 17:07:26.897|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/01 17:07:26.951|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/06/01 17:07:26.982|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/01 17:07:27.076|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/01 17:07:27.107|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/01 17:07:27.185|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/01 17:07:27.235|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/01 17:07:27.267|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/01 17:07:27.314|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/01 17:07:27.361|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/01 17:07:27.407|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/01 17:07:27.439|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/01 17:07:27.488|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/01 17:07:27.534|00001BC4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/01 17:07:30.220|00001BC4|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/01 17:07:30.282|00001BC4|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/01 17:07:30.485|00001BC4|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/01 17:07:31.067|00001BC4|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/01 17:07:31.239|00001BC4|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/01 17:07:31.301|00001BC4|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/01 17:07:36.193|00001BC4|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/01 17:07:36.318|00001BC4|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/01 17:07:36.380|00001BC4|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/01 17:07:36.490|00001BC4|Information|TpmUpdate::RestartSystem|
+2018/06/05 15:02:53.570|0000238C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:02:53.602|0000238C|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/05 15:02:53.664|0000238C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:02:53.758|0000238C|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/05 15:02:53.851|0000238C|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/05 15:02:53.992|0000238C|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/05 15:02:54.070|0000238C|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/05 15:02:54.164|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/05 15:02:54.211|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/05 15:02:54.273|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/05 15:02:54.320|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/05 15:02:54.414|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/05 15:02:54.492|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/06/05 15:02:54.555|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/05 15:02:54.726|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/05 15:02:54.789|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/05 15:02:54.867|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/05 15:02:54.976|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/05 15:02:55.117|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/05 15:02:55.179|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/05 15:02:55.289|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/05 15:02:55.367|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/05 15:02:55.429|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/05 15:02:55.492|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/05 15:02:55.570|0000238C|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/05 15:03:00.616|0000238C|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/05 15:03:00.757|0000238C|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/05 15:03:01.007|0000238C|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/05 15:03:01.148|0000238C|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/05 15:03:01.366|0000238C|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/05 15:03:01.538|0000238C|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/05 15:03:15.177|0000238C|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/05 15:03:15.286|0000238C|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/05 15:03:15.458|0000238C|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/05 15:03:15.692|0000238C|Information|TpmUpdate::RestartSystem|
+2018/06/05 15:04:02.721|000019A8|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:04:02.800|000019A8|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/05 15:04:02.893|000019A8|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:04:03.003|000019A8|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/05 15:04:03.159|000019A8|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/05 15:04:03.284|000019A8|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/05 15:04:03.394|000019A8|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/05 15:04:03.538|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/05 15:04:03.616|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/05 15:04:03.711|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/05 15:04:03.774|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/05 15:04:03.868|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/05 15:04:03.931|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/06/05 15:04:04.071|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/05 15:04:04.212|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/05 15:04:04.306|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/05 15:04:04.446|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/05 15:04:04.509|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/05 15:04:04.587|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/05 15:04:04.665|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/05 15:04:04.727|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/05 15:04:04.821|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/05 15:04:04.915|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/05 15:04:05.009|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/05 15:04:05.103|000019A8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/05 15:04:09.826|000019A8|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/05 15:04:09.920|000019A8|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/05 15:04:10.170|000019A8|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/05 15:04:10.279|000019A8|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/05 15:04:10.513|000019A8|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/05 15:04:10.670|000019A8|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/05 15:04:15.531|000019A8|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/05 15:04:15.688|000019A8|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/05 15:04:15.844|000019A8|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/05 15:04:15.891|000019A8|Information|TpmUpdate::RestartSystem|
+2018/06/05 15:12:15.560|00001FAC|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:12:15.607|00001FAC|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/05 15:12:15.810|00001FAC|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:12:16.607|00001FAC|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/05 15:12:16.998|00001FAC|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/05 15:12:17.232|00001FAC|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/05 15:12:17.389|00001FAC|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/05 15:12:17.592|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/05 15:12:17.779|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/05 15:12:17.936|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/05 15:12:18.154|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/05 15:12:18.279|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/05 15:12:18.373|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/06/05 15:12:18.483|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/05 15:12:18.701|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/05 15:12:18.795|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/05 15:12:18.936|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/05 15:12:19.045|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/05 15:12:19.139|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/05 15:12:19.233|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/05 15:12:19.311|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/05 15:12:19.405|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/05 15:12:19.577|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/05 15:12:19.639|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/05 15:12:19.858|00001FAC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/05 15:15:05.710|00001FAC|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/05 15:15:06.069|00001FAC|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/05 15:15:06.520|00001FAC|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/05 15:15:06.726|00001FAC|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/05 15:15:07.195|00001FAC|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/05 15:15:07.430|00001FAC|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/05 15:15:12.959|00001FAC|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/05 15:15:13.130|00001FAC|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/05 15:15:13.380|00001FAC|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/05 15:15:13.584|00001FAC|Information|TpmUpdate::RestartSystem|
+2018/06/05 15:31:22.287|00001AD4|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:31:22.319|00001AD4|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/05 15:31:22.490|00001AD4|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:31:22.553|00001AD4|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/05 15:31:22.740|00001AD4|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/05 15:31:22.959|00001AD4|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/05 15:31:23.022|00001AD4|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/05 15:31:23.100|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/05 15:31:23.162|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/05 15:31:23.256|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/05 15:31:23.319|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/05 15:31:23.381|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/05 15:31:23.459|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: Yes
+2018/06/05 15:31:23.537|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/05 15:31:23.662|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/05 15:31:23.725|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/05 15:31:23.850|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/05 15:31:23.928|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/05 15:31:24.084|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/05 15:31:24.147|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/05 15:31:24.256|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/05 15:31:24.334|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/05 15:31:24.475|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/05 15:31:24.569|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/05 15:31:24.663|00001AD4|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/05 15:31:53.717|00001AD4|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/05 15:31:53.842|00001AD4|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/05 15:31:54.170|00001AD4|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/05 15:31:54.263|00001AD4|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/05 15:31:54.529|00001AD4|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/05 15:31:54.685|00001AD4|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/05 15:31:59.035|00001AD4|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/05 15:31:59.113|00001AD4|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/05 15:31:59.238|00001AD4|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/05 15:31:59.410|00001AD4|Information|TpmUpdate::RestartSystem|
+2018/06/05 15:43:51.924|00004AF8|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:43:52.034|00004AF8|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/05 15:43:52.143|00004AF8|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 15:43:52.206|00004AF8|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/05 15:43:52.315|00004AF8|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/05 15:43:52.456|00004AF8|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/05 15:43:52.518|00004AF8|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/05 15:43:52.643|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/05 15:43:52.815|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/05 15:43:52.893|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/05 15:43:52.940|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/05 15:43:53.018|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/05 15:43:53.065|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/06/05 15:43:53.128|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/05 15:43:53.253|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/05 15:43:53.300|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/05 15:43:53.409|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/05 15:43:53.487|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/05 15:43:53.534|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/05 15:43:53.597|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/05 15:43:53.644|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/05 15:43:53.706|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/05 15:43:53.769|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/05 15:43:53.815|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/05 15:43:53.893|00004AF8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/05 15:43:59.363|00004AF8|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/05 15:43:59.488|00004AF8|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/05 15:43:59.769|00004AF8|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/05 15:43:59.894|00004AF8|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/05 15:44:00.144|00004AF8|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/05 15:44:00.300|00004AF8|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/05 15:44:04.441|00004AF8|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/05 15:44:04.504|00004AF8|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/05 15:44:04.691|00004AF8|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/05 15:44:04.769|00004AF8|Information|TpmUpdate::RestartSystem|
+2018/06/05 16:01:01.109|00000CB8|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 16:01:01.184|00000CB8|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/05 16:01:01.261|00000CB8|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 16:01:01.366|00000CB8|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/05 16:01:01.744|00000CB8|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/05 16:01:01.945|00000CB8|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/05 16:01:01.986|00000CB8|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/05 16:01:02.110|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/05 16:01:02.149|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/05 16:01:02.191|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/05 16:01:02.234|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/05 16:01:02.276|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/05 16:01:02.313|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: Yes
+2018/06/05 16:01:02.369|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/05 16:01:02.477|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/05 16:01:02.541|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/05 16:01:02.678|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/05 16:01:02.770|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/05 16:01:02.810|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/05 16:01:02.883|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/05 16:01:02.926|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/05 16:01:02.979|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/05 16:01:03.046|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/05 16:01:03.093|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/05 16:01:03.130|00000CB8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/05 16:01:34.817|00000CB8|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/05 16:01:34.892|00000CB8|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/05 16:01:35.069|00000CB8|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/05 16:01:35.162|00000CB8|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/05 16:01:35.288|00000CB8|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/05 16:01:35.394|00000CB8|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/05 16:01:41.158|00000CB8|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/05 16:01:41.202|00000CB8|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/05 16:01:41.293|00000CB8|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/05 16:01:41.377|00000CB8|Information|TpmUpdate::RestartSystem|
+2018/06/05 16:27:48.137|00001900|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 16:27:48.466|00001900|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/05 16:27:48.684|00001900|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/05 16:27:48.965|00001900|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/05 16:27:49.278|00001900|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/05 16:27:49.668|00001900|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/05 16:27:50.590|00001900|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/05 16:27:50.934|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/05 16:27:51.168|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/05 16:27:51.340|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/05 16:27:51.543|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/05 16:27:51.762|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/05 16:27:52.246|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: Yes
+2018/06/05 16:27:52.761|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/05 16:27:54.026|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/05 16:27:54.573|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/05 16:27:55.120|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/05 16:27:55.495|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/05 16:27:55.963|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/05 16:27:56.635|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/05 16:27:57.260|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/05 16:27:57.510|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/05 16:27:57.853|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/05 16:27:58.244|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/05 16:27:58.463|00001900|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/05 16:28:02.165|00001900|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/05 16:28:02.493|00001900|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/05 16:28:02.883|00001900|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/05 16:28:03.149|00001900|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/05 16:28:03.508|00001900|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/05 16:28:03.805|00001900|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/05 16:28:12.209|00001900|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/05 16:28:12.350|00001900|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/05 16:28:12.631|00001900|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/05 16:28:12.771|00001900|Information|TpmUpdate::RestartSystem|
+2018/06/08 13:42:56.274|000013A0|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/08 13:42:56.446|000013A0|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/08 13:42:56.618|000013A0|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/08 13:42:56.744|000013A0|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/08 13:42:56.869|000013A0|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/08 13:42:57.012|000013A0|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/08 13:42:57.090|000013A0|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/08 13:42:57.184|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/08 13:42:57.247|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/08 13:42:57.309|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/08 13:42:57.387|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/08 13:42:57.512|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/08 13:42:57.591|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/06/08 13:42:57.653|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/08 13:42:57.763|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/08 13:42:57.825|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/08 13:42:57.919|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/08 13:42:57.982|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/08 13:42:58.028|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/08 13:42:58.091|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/08 13:42:58.154|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/08 13:42:58.217|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/08 13:42:58.280|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/08 13:42:58.389|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/08 13:42:58.469|000013A0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/08 13:43:05.923|000013A0|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/08 13:43:05.986|000013A0|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/08 13:43:06.268|000013A0|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/08 13:43:06.393|000013A0|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/08 13:43:06.581|000013A0|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/08 13:43:06.659|000013A0|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/08 13:43:11.428|000013A0|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/08 13:43:11.475|000013A0|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/08 13:43:11.538|000013A0|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/08 13:43:11.647|000013A0|Information|TpmUpdate::RestartSystem|
+2018/06/11 10:54:55.259|000010F0|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/11 10:54:55.290|000010F0|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/11 10:54:55.321|000010F0|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/11 10:54:55.353|000010F0|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/11 10:54:55.787|000010F0|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/11 10:54:55.849|000010F0|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/11 10:54:55.880|000010F0|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/11 10:54:55.927|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/11 10:54:55.959|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/11 10:54:55.990|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/11 10:54:56.083|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/11 10:54:56.114|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/11 10:54:56.130|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/06/11 10:54:56.161|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/11 10:54:56.239|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/11 10:54:56.276|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/11 10:54:56.339|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/11 10:54:56.354|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/11 10:54:56.386|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/11 10:54:56.417|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/11 10:54:56.464|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/11 10:54:56.494|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/11 10:54:56.513|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/11 10:54:56.560|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/11 10:54:56.607|000010F0|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/11 10:55:01.015|000010F0|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/11 10:55:01.108|000010F0|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/11 10:55:01.404|000010F0|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/11 10:55:01.498|000010F0|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/11 10:55:01.591|000010F0|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/11 10:55:01.654|000010F0|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/06/11 10:55:07.574|000010F0|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/06/11 10:55:07.605|000010F0|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/06/11 10:55:07.668|000010F0|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/06/11 10:55:07.762|000010F0|Information|TpmUpdate::RestartSystem|
+2018/06/14 15:01:51.962|00000600|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/14 15:01:52.006|00000600|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/06/14 15:01:52.019|00000600|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/06/14 15:01:52.058|00000600|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/06/14 15:01:52.587|00000600|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/06/14 15:01:52.673|00000600|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/06/14 15:01:52.795|00000600|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/06/14 15:01:52.899|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/06/14 15:01:52.934|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/06/14 15:01:52.972|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/06/14 15:01:52.995|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/06/14 15:01:53.026|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/06/14 15:01:53.075|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: Yes
+2018/06/14 15:01:53.113|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/06/14 15:01:53.201|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/06/14 15:01:53.221|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/06/14 15:01:53.309|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/06/14 15:01:53.346|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/06/14 15:01:53.367|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/06/14 15:01:53.403|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/06/14 15:01:53.453|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/06/14 15:01:53.490|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/06/14 15:01:53.515|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/06/14 15:01:53.555|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/06/14 15:01:53.610|00000600|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/06/14 15:01:55.961|00000600|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/06/14 15:01:56.036|00000600|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/06/14 15:01:56.274|00000600|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/06/14 15:01:56.349|00000600|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/06/14 15:01:56.464|00000600|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/06/14 15:01:56.523|00000600|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/07 08:29:20.914|000018D8|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/07 08:29:21.023|000018D8|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/07 08:29:21.148|000018D8|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/07 08:29:21.304|000018D8|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/07 08:29:21.835|000018D8|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/07 08:29:22.102|000018D8|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/07 08:29:22.274|000018D8|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/07 08:29:22.477|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/07 08:29:22.602|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/07 08:29:22.743|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/07 08:29:22.837|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/07 08:29:22.962|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/07 08:29:23.118|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/08/07 08:29:23.305|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/07 08:29:23.883|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/07 08:29:24.008|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/07 08:29:24.180|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/07 08:29:24.321|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/07 08:29:24.462|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/07 08:29:24.587|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/07 08:29:24.790|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/07 08:29:24.915|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/07 08:29:25.056|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/07 08:29:25.217|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/07 08:29:25.341|000018D8|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/07 08:29:35.794|000018D8|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/08/07 08:29:35.953|000018D8|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/08/07 08:29:36.282|000018D8|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/08/07 08:29:36.485|000018D8|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/08/07 08:29:37.813|000018D8|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/07 08:29:38.001|000018D8|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/07 08:29:40.361|000018D8|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/08/07 08:29:40.486|000018D8|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/08/07 08:29:40.720|000018D8|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/08/07 08:29:40.892|000018D8|Information|TpmUpdate::RestartSystem|
+2018/08/09 09:40:57.945|00002A94|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/09 09:40:58.304|00002A94|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/09 09:40:58.554|00002A94|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/09 09:40:58.804|00002A94|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/09 09:40:59.226|00002A94|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/09 09:40:59.508|00002A94|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/09 09:40:59.695|00002A94|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/09 09:41:00.180|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/09 09:41:00.401|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/09 09:41:00.555|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/09 09:41:00.774|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/09 09:41:00.899|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/09 09:41:01.024|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: Yes
+2018/08/09 09:41:01.540|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/09 09:41:02.556|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/09 09:41:02.650|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/09 09:41:02.759|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/09 09:41:02.837|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/09 09:41:02.931|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/09 09:41:03.040|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/09 09:41:03.134|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/09 09:41:03.243|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/09 09:41:03.337|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/09 09:41:03.431|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/09 09:41:03.525|00002A94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/09 09:41:05.790|00002A94|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/08/09 09:41:05.931|00002A94|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/08/09 09:41:06.510|00002A94|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/08/09 09:41:06.666|00002A94|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/08/09 09:41:06.932|00002A94|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/09 09:41:07.151|00002A94|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/09 17:07:44.471|00001390|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/09 17:07:44.518|00001390|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/09 17:07:44.880|00001390|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/09 17:07:45.014|00001390|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/09 17:07:45.526|00001390|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/09 17:07:45.816|00001390|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/09 17:07:45.957|00001390|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/09 17:07:46.200|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/09 17:07:46.403|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/09 17:07:46.519|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/09 17:07:46.632|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/09 17:07:46.748|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/09 17:07:46.851|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/08/09 17:07:47.011|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/09 17:07:47.755|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/09 17:07:47.896|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/09 17:07:48.168|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/09 17:07:48.317|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/09 17:07:48.455|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/09 17:07:48.621|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/09 17:07:48.737|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/09 17:07:49.392|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/09 17:07:49.608|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/09 17:07:49.736|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/09 17:07:49.898|00001390|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/09 17:07:53.951|00001390|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/08/09 17:07:54.131|00001390|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/08/09 17:07:54.509|00001390|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/08/09 17:07:54.730|00001390|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/08/09 17:07:55.237|00001390|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/09 17:07:55.425|00001390|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/14 13:45:40.960|00002B78|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/14 13:45:41.070|00002B78|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/14 13:45:41.116|00002B78|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/14 13:45:41.163|00002B78|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/14 13:45:41.273|00002B78|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/14 13:45:41.366|00002B78|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/14 13:45:41.413|00002B78|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/14 13:45:41.491|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/14 13:45:41.538|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/14 13:45:41.585|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/14 13:45:41.632|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/14 13:45:41.695|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/14 13:45:41.757|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/08/14 13:45:41.807|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/14 13:45:41.948|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/14 13:45:41.995|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/14 13:45:42.120|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/14 13:45:42.167|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/14 13:45:42.214|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/14 13:45:42.276|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/14 13:45:42.323|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/14 13:45:42.385|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/14 13:45:42.432|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/14 13:45:42.479|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/14 13:45:42.604|00002B78|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/14 13:45:57.762|00002B78|Information|TpmUpdate::Partition::FindEspPartition|No GPT hard drive found.
+2018/08/14 13:45:57.808|00002B78|Information|TpmUpdate::Partition::AccessEspPartition|No ESP partition found.
+2018/08/14 13:45:57.902|00002B78|Information|TpmUpdate::Partition::FindHp_ToolsPartition|EFI partition found on drive E:\
+2018/08/14 13:45:58.027|00002B78|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in E:\Hewlett-Packard\
+2018/08/14 13:45:58.199|00002B78|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/14 13:45:58.277|00002B78|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/14 13:47:45.011|00002B78|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/08/14 13:47:45.090|00002B78|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/08/14 13:47:45.183|00002B78|Information|TpmUpdate::RestartSystem|
+2018/08/14 14:35:18.987|00001500|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/14 14:35:19.049|00001500|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/14 14:35:19.127|00001500|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/14 14:35:19.158|00001500|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/14 14:35:19.479|00001500|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/14 14:35:19.620|00001500|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/14 14:35:19.652|00001500|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/14 14:35:19.699|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/14 14:35:19.730|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/14 14:35:19.761|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/14 14:35:19.793|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/14 14:35:19.824|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/14 14:35:19.964|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/08/14 14:35:19.996|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/14 14:35:20.042|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/14 14:35:20.074|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/14 14:35:20.136|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/14 14:35:20.168|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/14 14:35:20.199|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/14 14:35:20.230|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/14 14:35:20.261|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/14 14:35:20.293|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/14 14:35:20.324|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/14 14:35:20.355|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/14 14:35:20.386|00001500|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/14 14:35:23.373|00001500|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/08/14 14:35:23.388|00001500|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/08/14 14:35:23.560|00001500|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/08/14 14:35:23.639|00001500|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/08/14 14:35:23.701|00001500|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/14 14:35:23.795|00001500|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/14 14:51:33.659|00001F14|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/14 14:51:33.690|00001F14|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/14 14:51:33.721|00001F14|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/14 14:51:33.762|00001F14|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/14 14:51:34.087|00001F14|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/14 14:51:34.212|00001F14|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/14 14:51:34.291|00001F14|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/14 14:51:34.385|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/14 14:51:34.494|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/14 14:51:34.604|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/14 14:51:34.682|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/14 14:51:34.713|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/14 14:51:34.808|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/08/14 14:51:34.886|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/14 14:51:34.933|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/14 14:51:34.964|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/14 14:51:35.043|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/14 14:51:35.075|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/14 14:51:35.090|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/14 14:51:35.121|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/14 14:51:35.153|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/14 14:51:35.168|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/14 14:51:35.215|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/14 14:51:35.247|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/14 14:51:35.278|00001F14|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/14 14:51:37.326|00001F14|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/08/14 14:51:37.342|00001F14|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/08/14 14:51:37.531|00001F14|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/08/14 14:51:37.609|00001F14|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/08/14 14:51:37.656|00001F14|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/14 14:51:37.750|00001F14|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/14 16:34:40.077|00001F94|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/14 16:34:40.249|00001F94|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/14 16:34:40.374|00001F94|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/14 16:34:40.468|00001F94|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/14 16:34:40.796|00001F94|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/14 16:34:41.046|00001F94|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/14 16:34:41.124|00001F94|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/14 16:34:41.468|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/14 16:34:41.530|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/14 16:34:41.608|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/14 16:34:41.671|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/14 16:34:41.811|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/14 16:34:41.937|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: Yes
+2018/08/14 16:34:41.999|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/14 16:34:42.124|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/14 16:34:42.233|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/14 16:34:42.327|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/14 16:34:42.421|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/14 16:34:42.483|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/14 16:34:42.546|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/14 16:34:42.608|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/14 16:34:42.671|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/14 16:34:42.733|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/14 16:34:42.796|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/14 16:34:42.874|00001F94|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/14 16:34:46.640|00001F94|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 5
+2018/08/14 16:34:46.796|00001F94|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 0
+2018/08/14 16:34:46.953|00001F94|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/08/14 16:34:47.500|00001F94|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/08/14 16:34:47.625|00001F94|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/14 16:34:48.047|00001F94|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/17 14:58:48.074|00000438|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/17 14:58:48.168|00000438|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/17 14:58:48.215|00000438|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/17 14:58:48.246|00000438|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/17 14:58:48.387|00000438|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/17 14:58:48.465|00000438|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/17 14:58:48.496|00000438|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/17 14:58:48.590|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/17 14:58:48.621|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/17 14:58:48.668|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/17 14:58:48.715|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/17 14:58:48.746|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/17 14:58:48.793|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/08/17 14:58:48.840|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/17 14:58:48.934|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/17 14:58:48.981|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/17 14:58:49.106|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/17 14:58:49.153|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/17 14:58:49.246|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/17 14:58:49.293|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/17 14:58:49.325|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/17 14:58:49.371|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/17 14:58:49.418|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/17 14:58:49.465|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/17 14:58:49.512|00000438|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/17 14:58:54.285|00000438|Information|TpmUpdate::Partition::FindEspPartition|No GPT hard drive found.
+2018/08/17 14:58:54.316|00000438|Information|TpmUpdate::Partition::AccessEspPartition|No ESP partition found.
+2018/08/17 14:58:54.500|00000438|Information|TpmUpdate::Partition::FindHp_ToolsPartition|EFI partition found on drive E:\
+2018/08/17 14:58:54.532|00000438|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in E:\Hewlett-Packard\
+2018/08/17 14:58:54.625|00000438|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/17 14:58:54.688|00000438|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/17 14:58:59.217|00000438|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/08/17 14:58:59.264|00000438|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/08/17 14:58:59.296|00000438|Information|TpmUpdate::RestartSystem|
+2018/08/24 13:51:44.278|00002068|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/24 13:51:44.340|00002068|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/24 13:51:48.372|00002068|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/24 13:51:48.450|00002068|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/24 13:51:49.629|00002068|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/24 13:51:49.954|00002068|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/24 13:51:50.063|00002068|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/24 13:51:51.195|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/24 13:51:52.144|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/24 13:51:53.223|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/24 13:51:53.270|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/24 13:51:53.332|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/24 13:51:53.441|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/08/24 13:51:53.504|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/24 13:51:53.707|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/24 13:51:53.770|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/24 13:51:53.941|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/24 13:51:54.035|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/24 13:51:54.442|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/24 13:51:54.551|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/24 13:51:54.660|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/24 13:51:54.770|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/24 13:51:54.879|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/24 13:51:54.988|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/24 13:51:55.113|00002068|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/24 13:51:58.973|00002068|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/08/24 13:51:59.770|00002068|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/08/24 13:52:00.286|00002068|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/08/24 13:52:00.395|00002068|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/08/24 13:52:00.849|00002068|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/24 13:52:02.474|00002068|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/24 13:52:26.046|00002068|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/08/24 13:52:26.109|00002068|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/08/24 13:52:31.406|00002068|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/08/24 13:52:31.469|00002068|Information|TpmUpdate::RestartSystem|
+2018/08/29 15:10:08.620|00002714|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/29 15:10:08.662|00002714|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/08/29 15:10:08.763|00002714|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/08/29 15:10:08.834|00002714|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/08/29 15:10:08.943|00002714|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/08/29 15:10:09.079|00002714|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/08/29 15:10:09.174|00002714|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/08/29 15:10:09.397|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/08/29 15:10:09.494|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/08/29 15:10:09.546|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/08/29 15:10:09.630|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/08/29 15:10:09.697|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/08/29 15:10:09.761|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2018/08/29 15:10:09.847|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/08/29 15:10:09.974|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/08/29 15:10:10.044|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/08/29 15:10:10.211|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/08/29 15:10:10.277|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/08/29 15:10:10.345|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/08/29 15:10:10.428|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/08/29 15:10:10.525|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/08/29 15:10:10.580|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/08/29 15:10:10.658|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/08/29 15:10:10.738|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/08/29 15:10:10.806|00002714|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/08/29 15:10:14.577|00002714|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/08/29 15:10:14.649|00002714|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/08/29 15:10:14.835|00002714|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/08/29 15:10:14.945|00002714|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/08/29 15:10:15.084|00002714|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/08/29 15:10:15.191|00002714|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/08/29 15:10:20.774|00002714|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/08/29 15:10:20.857|00002714|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/08/29 15:10:20.991|00002714|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/08/29 15:10:21.088|00002714|Information|TpmUpdate::RestartSystem|
+2018/10/30 15:48:27.334|00002790|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/10/30 15:48:27.411|00002790|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2018/10/30 15:48:27.547|00002790|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2018/10/30 15:48:27.652|00002790|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2018/10/30 15:48:27.826|00002790|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2018/10/30 15:48:27.984|00002790|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2018/10/30 15:48:28.080|00002790|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2018/10/30 15:48:28.278|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2018/10/30 15:48:28.400|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2018/10/30 15:48:28.532|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2018/10/30 15:48:28.635|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2018/10/30 15:48:28.720|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2018/10/30 15:48:28.798|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: Yes
+2018/10/30 15:48:28.886|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2018/10/30 15:48:29.052|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2018/10/30 15:48:29.135|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2018/10/30 15:48:29.291|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2018/10/30 15:48:29.384|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2018/10/30 15:48:29.483|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2018/10/30 15:48:29.562|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2018/10/30 15:48:29.653|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2018/10/30 15:48:29.739|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2018/10/30 15:48:29.825|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2018/10/30 15:48:29.939|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2018/10/30 15:48:30.029|00002790|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2018/10/30 15:48:34.198|00002790|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2018/10/30 15:48:34.405|00002790|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2018/10/30 15:48:35.777|00002790|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2018/10/30 15:48:36.171|00002790|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2018/10/30 15:48:36.333|00002790|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2018/10/30 15:48:36.557|00002790|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2018/10/30 15:48:39.317|00002790|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 3010
+2018/10/30 15:48:39.413|00002790|Information|TpmUpdate::Partition::CloseEspPartition|Unmounting the ESP drive: mountvol.exe Z:\ /D.
+2018/10/30 15:48:39.569|00002790|Information|TpmUpdate::RestartSystem|*************   End of TPMConfig session - restarting    *************
+2018/10/30 15:48:39.648|00002790|Information|TpmUpdate::RestartSystem|
+2019/01/07 15:10:14.505|00002F30|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2019/01/07 15:10:14.552|00002F30|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2019/01/07 15:10:14.645|00002F30|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2019/01/07 15:10:14.739|00002F30|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2019/01/07 15:10:14.880|00002F30|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2019/01/07 15:10:15.020|00002F30|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2019/01/07 15:10:15.864|00002F30|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2019/01/07 15:10:16.614|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2019/01/07 15:10:16.724|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2019/01/07 15:10:16.849|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2019/01/07 15:10:17.739|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2019/01/07 15:10:17.927|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2019/01/07 15:10:18.208|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2019/01/07 15:10:18.864|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2019/01/07 15:10:19.630|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2019/01/07 15:10:19.974|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2019/01/07 15:10:20.458|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2019/01/07 15:10:20.583|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2019/01/07 15:10:20.724|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2019/01/07 15:10:20.849|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2019/01/07 15:10:20.943|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2019/01/07 15:10:21.068|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2019/01/07 15:10:22.302|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2019/01/07 15:10:22.834|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2019/01/07 15:10:22.959|00002F30|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2019/01/07 15:10:27.225|00002F30|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2019/01/07 15:10:27.381|00002F30|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 1
+2019/01/07 15:10:27.897|00002F30|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2019/01/07 15:10:28.037|00002F30|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2019/01/07 15:10:28.397|00002F30|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2019/01/07 15:10:28.569|00002F30|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
+2019/05/07 17:19:48.621|000025DC|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2019/05/07 17:19:48.640|000025DC|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
+2019/05/07 17:19:48.693|000025DC|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
+2019/05/07 17:19:48.732|000025DC|Information|CTpmUpdateApp::InitializeProperties|Command line: 
+2019/05/07 17:19:48.820|000025DC|Information|TpmUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2019/05/07 17:19:48.889|000025DC|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isGondorBIOS = 1, m_isEspDriveSupported = 1
+2019/05/07 17:19:48.940|000025DC|Information|TpmUpdate::PrivateWmiInfo::GetPrivateWmiSettings|, m_isGondorBIOS = 1
+2019/05/07 17:19:49.056|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM information:
+2019/05/07 17:19:49.099|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|-------------------------------
+2019/05/07 17:19:49.142|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM family: 1.2
+2019/05/07 17:19:49.184|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM firmware version 6.41.197.0
+2019/05/07 17:19:49.240|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|Remaining updates: More than 3
+2019/05/07 17:19:49.286|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|TPM owner set: No
+2019/05/07 17:19:49.328|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loading firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN ...
+2019/05/07 17:19:49.403|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Loaded the firmware image \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN successfully.
+2019/05/07 17:19:49.452|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|Call IFXTPMUpdate_GetFirmwareImageInfo ...
+2019/05/07 17:19:49.622|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image information
+2019/05/07 17:19:49.887|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|------------------------------------------
+2019/05/07 17:19:50.125|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware image is valid and is updatable.
+2019/05/07 17:19:50.204|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM information after update
+2019/05/07 17:19:50.286|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|----------------------------
+2019/05/07 17:19:50.387|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM family: 2.0
+2019/05/07 17:19:50.450|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetFWImageInfo|TPM firmware version: 7.62.3126.0
+2019/05/07 17:19:50.506|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetTMPFirmwareImageInfo|Yes, can switch with this image: \\hewbefs001.hbe.local\dist$\HP\TPM\TPM12_6.41.197.0\TPM12_6.41.197.0_to_TPM20_7.62.3126.0.BIN
+2019/05/07 17:19:50.557|000025DC|Information|TpmUpdate::CTPMUpdateInfo::GetTPMInfo|GetTMPFirmwareImageInfo returns 0x00000000
+2019/05/07 17:19:55.760|000025DC|Information|TpmUpdate::Partition::FindEspPartition|PartitionStyle == PARTITION_STYLE_GPT, PartitionCount: 4
+2019/05/07 17:19:55.809|000025DC|Information|TpmUpdate::Partition::FindEspPartition|ESP partition found: drive = 0, partition = 0
+2019/05/07 17:19:55.989|000025DC|Information|TpmUpdate::Partition::MountEspPartition|ESP drive mounted as Z:\.
+2019/05/07 17:19:56.035|000025DC|Information|TpmUpdate::Partition::CreateHpBiosTPMFWFolderHierarchy|Creating folder structure in Z:\EFI\HP\
+2019/05/07 17:19:56.082|000025DC|Information|TpmUpdate::Partition::CopyFWUpdateBin|Update successfully copied.
+2019/05/07 17:19:56.163|000025DC|Information|CTpmUpdateApp::DoTPMFWEfiFlash|Set FW Update ready flag  passed.  Update will occur on restart.
