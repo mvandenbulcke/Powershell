@@ -1,7 +1,0 @@
-﻿2018/05/23 14:25:01.610|0000323C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
-2018/05/23 14:25:01.621|0000323C|Information|CTpmUpdateApp::InitializeProperties|**   Start of HP TPM FW Update session, version 1.0.6.1    **
-2018/05/23 14:25:01.674|0000323C|Information|CTpmUpdateApp::InitializeProperties|******************************************************************
-2018/05/23 14:25:01.695|0000323C|Information|CTpmUpdateApp::InitializeProperties|Command line: -s -fTPM12_6.40.190.0_to_TPM20_7.62.3126.0.BIN 
-2018/05/23 14:25:01.738|0000323C|Information|CTpmUpdateApp::InitializeProperties|The provided TPM BIN file is not existed.
-2018/05/23 14:25:01.759|0000323C|Information|CTpmUpdateApp::ExitInstance|HPTPMFWUpdate Return Code = 257
-2018/05/23 14:25:01.829|0000323C|Information|CTpmUpdateApp::ExitInstance|******************   End of HP TPM FW Update session    ******************
