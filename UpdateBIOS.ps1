@@ -47,7 +47,13 @@ function Update-BIOS {
         Suspend-BitLockerIfNeeded -DriveLetter "C"
 
         # Run BIOS update
-        Start-Process $FilePath -ArgumentList '-r -s' -Wait
+        
+    # Determine the correct silent install parameter based on the executable name
+    $installArgs = if ($FilePath -match "WINUPTP64.EXE") { "-s" } elseif ($FilePath -match "wFlashGUIX64.exe") { "/quit" } else { "-s" }
+    
+    # Run BIOS update
+    Start-Process $FilePath -ArgumentList $installArgs -Wait
+    
 
         # Prompt for restart
         $restart = Read-Host "BIOS update complete for $SystemFamily. Restart is required. Restart now? (Y/N)"
@@ -61,12 +67,18 @@ function Update-BIOS {
 
 # BIOS Configuration Dictionary for Lenovo SystemFamily
 $biosUpdates = @(
-    @{ Family = "ThinkPad X1"; Version = "1.42"; Path = ".\BIOS Update\ThinkPad X1 Carbon Gen 10 1.42\X1CarbonGen10_1.42.exe" },
-    @{ Family = "ThinkPad T Series"; Version = "1.23"; Path = ".\BIOS Update\ThinkPad T14s Gen 3 1.23\T14sGen3_1.23.exe" },
-    @{ Family = "ThinkPad P Series"; Version = "1.36"; Path = ".\BIOS Update\ThinkPad P15 Gen 2 1.36\P15Gen2_1.36.exe" },
-    @{ Family = "ThinkCentre M Series"; Version = "M1AKT42A"; Path = ".\BIOS Update\ThinkCentre M720q Tiny M1AKT42A\M720qTiny_M1AKT42A.exe" },
-    @{ Family = "ThinkCentre M Series"; Version = "M1AKT42A"; Path = ".\BIOS Update\ThinkCentre M920s SFF M1AKT42A\M920sSFF_M1AKT42A.exe" },
-    @{ Family = "ThinkPad E Series"; Version = "1.21"; Path = ".\BIOS Update\ThinkPad E14 Gen 2 1.21\E14Gen2_1.21.exe" }
+    @{ Family = "ThinkPad T490s"; Version = "N2JET77W (1.55 )"; Path = ".\BIOSUpdates\ThinkPad T490s\WINUPTP64.EXE" }, # Updated 12/12/2024
+    @{ Family = "ThinkPad T480s"; Version = "N22ET52W (1.29 )"; Path = ".\BIOSUpdates\ThinkPad T480s\WINUPTP64.EXE" }, # Updated 22/01/2025
+    @{ Family = "ThinkPad T14s Gen 1"; Version = "N2YET25W (1.14 )"; Path = ".\BIOSUpdates\ThinkPad T14s Gen 1\WINUPTP64.EXE" }, # Updated 22/01/2025
+    @{ Family = "ThinkPad T14s Gen 2i"; Version = "N35ET51W (1.51 )"; Path = ".\BIOSUpdates\ThinkPad T14s Gen 2i\WINUPTP64.EXE" }, # Updated 27/01/2025
+    @{ Family = "ThinkPad T14s Gen 5"; Version = "N46ET19W (1.09 )"; Path = ".\BIOSUpdates\ThinkPad T14s Gen 5\WINUPTP.EXE" }, # Updated 05/12/2024
+    @{ Family = "ThinkPad P52s"; Version = "N27ET32W (1.18 )"; Path = ".\BIOS Update\ThinkPad P15 Gen 2 1.36\WINUPTP64.EXE" }, # Updated 16/12/2024
+    @{ Family = "ThinkPad P15s Gen 2i"; Version = "N34ET53W (1.53 )"; Path = ".\BIOSUpdates\ThinkPad P15s Gen 2i\WINUPTP64.EXE" }, # Updated 16/12/2024
+    @{ Family = "ThinkPad P16s Gen 3"; Version = "R2DET30W (1.15 )"; Path = ".\BIOSUpdates\ThinkPad P16s Gen 3\WINUPTP.EXE" }, # Updated 09/12/2024
+    @{ Family = "ThinkCentre M920s"; Version = "M1UKT50A"; Path = ".\BIOSUpdates\ThinkCentre M920s\wFlashGUIX64.exe" }, # Updated 25/04/2024
+    @{ Family = "ThinkCentre M920q"; Version = "M1UKT33A"; Path = ".\BIOSUpdates\ThinkCentre M920q\wFlashGUIX64.exe" }, # Updated 25/04/2024
+    @{ Family = "ThinkCentre M80s Gen 3"; Version = "M40KT32A"; Path = ".\BIOSUpdates\ThinkCentre M80s Gen 3\wFlashGUIX64.exe" }, # Updated 01/11/2024
+    @{ Family = "ThinkCentre M80q"; Version = "M2WKT57A"; Path = ".\BIOSUpdates\ThinkCentre M80q\wFlashGUIX64.exe" } # Updated 17/12/2024
     # Add more entries as needed
 )
 
